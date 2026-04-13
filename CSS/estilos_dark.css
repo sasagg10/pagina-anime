@@ -1,3 +1,21 @@
-h1 {
-    color: green ;
+
+h1 /* cuando es asi es una etiqueta*/
+ {
+    color: green;
+}
+
+#fotologo {
+    width: 360px;
+    height: 350px;
+}
+
+#fotoanimada  /* cuando es un # es una clase*/
+{
+    width: 300px;
+    height: 250px;
+}
+
+.bordes /*cuando se utiliza un punto es una clase */
+{
+border: 2px solid black;
 }
