@@ -35,3 +35,18 @@ border: 2px solid black;
     align-items: center;
     justify-content: center;
 }
+#imagenesServ{
+    display: flex;
+    justify-content:space-evenly ;
+    margin-top: 50px; 
+}
+
+#imagenIsekai1 {
+    background-color:white ;
+    width: 80 px;
+
+}
+#imagenIsekai2 {
+    background-color:rgb(25, 22, 22) ;
+    width: 80 px;
+}
