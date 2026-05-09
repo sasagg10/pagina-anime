@@ -28,4 +28,7 @@ color: white;
     color: rgb(0, 0, 0);
     border: 30 px ;
     background-color: rgb(13, 103, 13);
+    height: 300px;
+    box-shadow: 5px 5px 15px 2px gray;
+
 }
