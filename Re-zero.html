@@ -14,25 +14,65 @@
   <title>Document</title>
   <link rel="stylesheet" href="CSS/estilos.css">
   <link rel="stylesheet" href="CSS/estilos_dark.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
-<body id="fondoPag">
+ <body id="fondoPag"> 
   <header>
-        <div id="cajaLogo">
-            <img src="imagenes ejercicio cesde/logoSINfondo.png" width="300" height="250"> </img>
-            <Span class="">pagina anime</Span>
-        </div>
-    </header>
-    
-<nav id="menu">
+    <div id="cajaLogo">
+      <img src="imagenes ejercicio cesde/logoSINfondo.png" width="300" height="250"> </img>
+      <Span class="">pagina anime</Span>
+    </div>
+  </header>
+  
+  <!--<nav id="menu">
     <ul>
-        <li> <a> video</a></li>
-        <li> <a> contactos</a></li>
-        <li> <a> imagenes</a></li>
-        <li> <a> configuraciones </a></li>
+      <li> <a> video</a></li>
+      <li> <a> contactos</a></li>
+      <li> <a> imagenes</a></li>
+      <li> <a> configuraciones </a></li>
     </ul>
-</nav>
+  </nav>
+  -->
  
+
+  <section id="menu">
+
+    <nav class="navbar navbar-expand-lg " style="background-color: rgb(15, 104, 139);">
+        <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active text-white " aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">recursos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              generos
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">videos</a></li>
+            <li><a class="dropdown-item" href="#">imagenes</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">configuraciones</a></li>
+        </ul>
+        </li>
+        <li class="nav-item">
+        
+      </ul>
+      <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+</section>
 
 <!-- el codigo css en el mismo Documento no organizado-->
 <h1 style="color: blue;">¿si volvieras de la muerte, podrias con la carga que lo implica? </h1>
@@ -46,8 +86,11 @@
     humillaron o lo mataron en bucles anteriores
   </p>
   <h2>analisis del protagonista:</h2>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/YFS8lTf4ZZE?si=lj5bOthdNhv2otrh"
-    title="YouTube video player" frameborder="0"
+ 
+  <iframe src="https://www.youtube.com/embed/YFS8lTf4ZZE?si=lj5bOthdNhv2otrh" class="video">
+   
+  
+  title="YouTube video player" frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -170,7 +213,7 @@
   <nav>
     <a href="index.html" id="colorboton">Inicio</a>
   </nav>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 
 </html>

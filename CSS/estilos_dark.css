@@ -56,4 +56,26 @@ border: 2px solid black;
         width: 60%;
 
     }
+    @media(max-with:450px){
+        .elementosFormularios {
+            width: 30%;
+            height: 30px ;
+        }
+        
+}
+#formulario {
+    padding: 0px 5px 0px 40px;
+}
+#contenidoFooter {
+    padding: 60px;
 
+}
+@media (max-with:450px)
+{
+    #servicios{
+        flex-direction: column;
+    }
+    #imagenesServ1 , #imagenesServ {
+         width: 20px ;
+    }
+}
